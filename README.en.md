@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <a href="#-why-readme-craft"><b>💡 Why This</b></a> •
+  <a href="#-key-strengths"><b>💡 Key Strengths</b></a> •
   <a href="#-pipeline"><b>🔄 Pipeline</b></a> •
-  <a href="#-quickstart"><b>🚀 Quickstart</b></a> •
+  <a href="#-installation"><b>🚀 Installation</b></a> •
   <a href="#-usage"><b>✨ How to Use</b></a> •
   <a href="#-license"><b>📄 License</b></a>
 </p>
@@ -33,14 +33,14 @@
 
 ---
 
-## 💡 Why readme-craft
+## 💡 Key Strengths
 
 | Dimension | Typical Sloppy README | Bloated Enterprise Template | `readme-craft` Solution |
 | :--- | :--- | :--- | :--- |
-| **First Impression** | Plain text wall, looks like a personal scratchpad | Excessive dual theme images, complex sponsor walls | **Clean 5-Tier Funnel**: Centered Hero + flat shields badges + clean placeholders |
-| **Onboarding** | Bare `npm install`, missing OS context | Fragmented multi-page docs site | **3-in-1 Matrix**: Agent Prompt install + CLI + Releases |
-| **Architecture** | No diagram or blurry static screenshots | Heavy external drawing tools | **GitHub-Safe Pure Mermaid**: Zero external image dependency, dark mode native |
-| **Bilingual Support** | English-only misses local dev, Chinese-only loses global traffic | Heavy CI automated translation clutter | **Top-right Clean Switch**: Smooth toggle between `README.md` and `README.en.md` |
+| **First Impression** | ❌ Plain text wall, looks like a personal scratchpad | ❌ Excessive dual theme images, complex sponsor walls | ✅ **Clean 5-Tier Funnel**: Centered Hero + flat shields badges + clean placeholders |
+| **Onboarding** | ❌ Bare `npm install`, missing OS context | ❌ Fragmented multi-page docs site | ✅ **Professional Multi-Channel**: Agent Prompt install + Source CLI + Release Detection |
+| **Architecture** | ❌ No diagram or blurry static screenshots | ❌ Heavy external drawing tools | ✅ **GitHub-Safe Pure Mermaid**: Zero external image dependency, dark mode native |
+| **Bilingual Support** | ❌ English-only misses local dev, Chinese-only loses global traffic | ❌ Heavy CI automated translation clutter | ✅ **Top-right Clean Switch**: Smooth toggle between `README.md` and `README.en.md` |
 
 ---
 
@@ -50,24 +50,24 @@
 flowchart TD
     A["1. Inspect project code & config"] --> B{"Extract core metadata"}
     B --> C1["Generate punchy bilingual slogans & badges"]
-    B --> C2["Build pain-point comparison matrix"]
+    B --> C2["Build key strengths matrix with visual icons"]
     B --> C3["Write defensive Mermaid flowchart"]
-    B --> C4["Form 3-in-1 onboarding channels (AI/CLI/Release)"]
+    B --> C4["Form multi-channel onboarding (AI/CLI/Release)"]
     C1 & C2 & C3 & C4 --> D["Deliver 100% GitHub-compatible README and asset guides"]
 ```
 
 ---
 
-## 🚀 Quickstart
+## 🚀 Installation
 
-### Option 1: AI Agent One-Click Install (Recommended)
+### Option 1: AI Agent Setup (Recommended)
 Copy and send this prompt to your AI coding assistant (Claude Code / Cursor / Codex / ZCode):
 ```text
 Please install this Agent Skill: https://github.com/guxiao7538/readme-craft
 Read its SKILL.md and help me craft a high-impact README for the current project.
 ```
 
-### Option 2: Geek CLI Clone
+### Option 2: Command Line Clone
 ```bash
 # Global user-level install (Claude Code / ZCode)
 git clone https://github.com/guxiao7538/readme-craft.git ~/.claude/skills/readme-craft
@@ -76,7 +76,7 @@ git clone https://github.com/guxiao7538/readme-craft.git ~/.claude/skills/readme
 git clone https://github.com/guxiao7538/readme-craft.git .claude/skills/readme-craft
 ```
 
-### Option 3: Direct Release Download
+### Option 3: Pre-built Release Download
 👉 Go to [GitHub Releases](../../releases) to download the packaged release bundle.
 
 ---

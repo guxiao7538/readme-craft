@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <a href="#-核心代差"><b>💡 核心代差</b></a> •
+  <a href="#-核心优势"><b>💡 核心优势</b></a> •
   <a href="#-生成工作流"><b>🔄 核心流水线</b></a> •
-  <a href="#-三合一极速上手"><b>🚀 极速安装</b></a> •
+  <a href="#-安装指南"><b>🚀 安装指南</b></a> •
   <a href="#-设计规范亮点"><b>✨ 核心特性</b></a> •
   <a href="#-开源协议"><b>📄 开源协议</b></a>
 </p>
@@ -33,14 +33,14 @@
 
 ---
 
-## 💡 核心代差 (Why readme-craft)
+## 💡 核心优势 (Key Strengths)
 
 | 核心维度 | 传统草率 README | 复杂大厂模板库 | `readme-craft` 解决方案 |
 | :--- | :--- | :--- | :--- |
-| **首屏视觉** | 纯文字平铺直叙，像个人备忘录，读者 3 秒关掉 | 强行堆砌多套深浅色图、赞助墙，维护极繁重 | **极简 5 级漏斗**：Hero 居中 + 统一扁平徽章 + 标准图片占位，清爽抓人 |
-| **安装指引** | 只有单薄的一行 `npm install` 或缺少环境依赖 | 拆分多页面文档站，跳转成本高 | **三合一分流矩阵**：AI 一键安装 Prompt + 极客 CLI + Releases 直达 |
-| **技术流程** | 没有图或放外部静态截图，后续改动需重新切图 | 使用复杂画图软件，源文件容易遗失 | **GitHub-Safe 纯文本 Mermaid**：强转义、零外部图片依赖、暗黑模式原生适配 |
-| **双语体验** | 纯中文失掉海外曝光，纯英文中文受众读着累 | 脚本自动化生成多语言导致目录杂乱 | **右上角单行直达**：`README.md` 与 `README.en.md` 极简无感互切 |
+| **首屏视觉** | ❌ 纯文字平铺直叙，像个人备忘录，读者 3 秒关掉 | ❌ 强行堆砌多套深浅色图、赞助墙，维护极繁重 | ✅ **极简 5 级漏斗**：Hero 居中 + 统一扁平徽章 + 标准图片占位，清爽抓人 |
+| **安装指引** | ❌ 只有单薄的一行 `npm install` 或缺少环境依赖 | ❌ 拆分多页面文档站，跳转成本高 | ✅ **三通道安装矩阵**：AI 一键安装 Prompt + 命令行源码运行 + Releases 智能判断 |
+| **技术流程** | ❌ 没有图或放外部静态截图，后续改动需重新切图 | ❌ 使用复杂画图软件，源文件容易遗失 | ✅ **GitHub-Safe 纯文本 Mermaid**：强转义、零外部图片依赖、暗黑模式原生适配 |
+| **双语体验** | ❌ 纯中文失掉海外曝光，纯英文中文受众读着累 | ❌ 脚本自动化生成多语言导致目录杂乱 | ✅ **右上角单行直达**：`README.md` 与 `README.en.md` 极简无感互切 |
 
 ---
 
@@ -50,24 +50,24 @@
 flowchart TD
     A["1. 扫描项目源码与配置文件"] --> B{"提炼核心元数据"}
     B --> C1["生成穿透力双语 Slogan 与 Badges"]
-    B --> C2["组装痛点对齐矩阵表 (Why It Matters)"]
+    B --> C2["组装核心优势矩阵表 (带 ✅/❌ 视觉对比)"]
     B --> C3["编写防御性 Mermaid 架构流程图"]
-    B --> C4["构建三合一安装通道 (AI/CLI/Release)"]
+    B --> C4["构建多通道安装矩阵 (AI/CLI/Release)"]
     C1 & C2 & C3 & C4 --> D["交付 100% 兼容的 README.md 与 assets 占位"]
 ```
 
 ---
 
-## 🚀 三合一极速安装 (Quickstart)
+## 🚀 安装指南 (Installation)
 
-### 姿势一：AI 助手一键安装 (推荐)
+### 方式一：AI 助手一键配置 (推荐)
 复制以下指令发给你的日常 AI 编程助手（Claude Code / Cursor / Codex / ZCode）：
 ```text
 请帮我安装这个 Agent Skill: https://github.com/guxiao7538/readme-craft
 读取其中的 SKILL.md，并协助我为当前项目编写/重构高质感 README。
 ```
 
-### 姿势二：极客命令行克隆
+### 方式二：命令行源码克隆
 ```bash
 # 全局用户级安装（Claude Code / ZCode）
 git clone https://github.com/guxiao7538/readme-craft.git ~/.claude/skills/readme-craft
@@ -76,7 +76,7 @@ git clone https://github.com/guxiao7538/readme-craft.git ~/.claude/skills/readme
 git clone https://github.com/guxiao7538/readme-craft.git .claude/skills/readme-craft
 ```
 
-### 姿势三：Releases 下载
+### 方式三：预构建版本下载 (Releases)
 👉 前往 [GitHub Releases](../../releases) 直接下载打包好的技能分发包。
 
 ---
