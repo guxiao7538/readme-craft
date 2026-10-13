@@ -35,16 +35,16 @@ flowchart TD
 1. **Header (Hero 剧场)**：
    - 右上角单行中英文切换链接。
    - 居中标题与精准 Slogan。
-   - 3~5 枚 Shields.io 扁平纯色 Badges（版本、平台/语言、协议，统一 `style=flat-square`）。
-   - 单行锚点快速导航栏。
-2. **Primary Proof (核心优势对比表)**：
-   - 标题固定为 **「💡 核心优势 (Key Strengths)」**。
-   - 必须使用 Markdown 表格，内容行内统一带 `✅` 与 `❌` 标识，形成强烈视觉反差。
-3. **Workflow (防御性 Mermaid 流程图)**：
-   - 严格遵循 `references/mermaid-guide.md` 防御规则：**所有节点文本必须用双引号包裹 `["..."]`**，只用标准 `flowchart LR` 或 `flowchart TD`，禁止嵌套中英文方括号与 mindmap，确保 GitHub 100% 渲染成功。
-4. **Onboarding (安装指南 / Quickstart)**：
-   - **摒弃“姿势”、“极客”等中二浮夸用词，采用专业规范的命名**：
-     - **方式一：AI 助手一键配置（推荐）**：提供一段直接发给 Claude Code / Cursor / Codex 的精准提示词。
+38	   - 3~5 枚 Shields.io 扁平纯色 Badges（版本、通用 Agent 生态兼容、协议，统一 `style=flat-square`）。
+39	   - 单行锚点快速导航栏。
+40	2. **Primary Proof (核心优势对比表)**：
+41	   - 标题固定为 **「💡 核心优势 (Key Strengths)」**。
+42	   - 必须使用 Markdown 表格，内容行内统一带 `✅` 与 `❌` 标识，形成强烈视觉反差。
+43	3. **Workflow (防御性 Mermaid 流程图)**：
+44	   - 严格遵循 `references/mermaid-guide.md` 防御规则：**所有节点文本必须用双引号包裹 `[“...”]`**，只用标准 `flowchart LR` 或 `flowchart TD`，禁止嵌套中英文方括号与 mindmap，确保 GitHub 100% 渲染成功。
+45	4. **Onboarding (安装指南 / Quickstart)**：
+46	   - **摒弃特定窄众命名，面向全生态 Agent 用户与通用开发者**：
+47	     - **方式一：AI 助手一键配置（推荐）**：提供一段全生态通用的提示词（明确支持 Workbuddy、DeepseekHarness、Cursor、GitHub Copilot、Claude Code 等任意主流 Agent）。
      - **方式二：命令行源码运行**：不超过 3 行的克隆、安装与运行指令。
      - **方式三：预构建版本下载 (Releases) —— 必须进行条件判断**：
        - **判定规则**：如果项目是纯文档、提示词包或纯源码仓库，**默认不添加 Release 板块**。

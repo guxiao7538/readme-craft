@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agent_Ready-Claude_Code_%7C_ZCode_%7C_Cursor-8a2be2?style=flat-square" alt="Agent Ready" />
+  <img src="https://img.shields.io/badge/Agent-Universal_Compatible-8a2be2?style=flat-square" alt="Universal Agent" />
   <img src="https://img.shields.io/badge/Mermaid-GitHub_Safe_Strict-10B981?style=flat-square" alt="Mermaid Safe" />
   <img src="https://img.shields.io/badge/Layout-Indie_5_Tier-3B82F6?style=flat-square" alt="Indie 5-Tier" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
@@ -61,7 +61,7 @@ flowchart TD
 ## 🚀 Installation
 
 ### Option 1: AI Agent Setup (Recommended)
-Copy and send this prompt to your AI coding assistant (Claude Code / Cursor / Codex / ZCode):
+Copy and send this prompt to your AI assistant (supports Workbuddy, DeepseekHarness, Cursor, GitHub Copilot, Claude Code, and any major Agent):
 ```text
 Please install this Agent Skill: https://github.com/guxiao7538/readme-craft
 Read its SKILL.md and help me craft a high-impact README for the current project.
@@ -69,7 +69,7 @@ Read its SKILL.md and help me craft a high-impact README for the current project
 
 ### Option 2: Command Line Clone
 ```bash
-# Global user-level install (Claude Code / ZCode)
+# Global user-level install (applicable for any Agent skills directory)
 git clone https://github.com/guxiao7538/readme-craft.git ~/.claude/skills/readme-craft
 
 # Or local project-level install

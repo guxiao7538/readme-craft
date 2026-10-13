@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agent_Ready-Claude_Code_%7C_ZCode_%7C_Cursor-8a2be2?style=flat-square" alt="Agent Ready" />
+  <img src="https://img.shields.io/badge/Agent-Universal_Compatible-8a2be2?style=flat-square" alt="Universal Agent" />
   <img src="https://img.shields.io/badge/Mermaid-GitHub_Safe_Strict-10B981?style=flat-square" alt="Mermaid Safe" />
   <img src="https://img.shields.io/badge/Layout-Indie_5_Tier-3B82F6?style=flat-square" alt="Indie 5-Tier" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
@@ -61,7 +61,7 @@ flowchart TD
 ## 🚀 安装指南 (Installation)
 
 ### 方式一：AI 助手一键配置 (推荐)
-复制以下指令发给你的日常 AI 编程助手（Claude Code / Cursor / Codex / ZCode）：
+复制以下指令发给你的 AI 助手（支持 Workbuddy、DeepseekHarness、Cursor、GitHub Copilot、Claude Code 等任意主流 Agent）：
 ```text
 请帮我安装这个 Agent Skill: https://github.com/guxiao7538/readme-craft
 读取其中的 SKILL.md，并协助我为当前项目编写/重构高质感 README。
@@ -69,7 +69,7 @@ flowchart TD
 
 ### 方式二：命令行源码克隆
 ```bash
-# 全局用户级安装（Claude Code / ZCode）
+# 全局用户级安装（支持各平台的 Agent Skill 目录）
 git clone https://github.com/guxiao7538/readme-craft.git ~/.claude/skills/readme-craft
 
 # 或当前项目级安装

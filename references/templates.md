@@ -25,7 +25,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status" />
-  <img src="https://img.shields.io/badge/Platform-Claude_%7C_Cursor-8a2be2?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/Agent-Universal_Compatible-8a2be2?style=flat-square" alt="Universal Agent" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" />
 </p>
 
@@ -67,7 +67,7 @@ flowchart TD
 ## 🚀 安装指南 (Installation)
 
 ### 方式一：AI 助手一键配置 (推荐)
-复制以下指令发给你的 AI 编程助手（Claude Code / Cursor / Codex / ZCode）：
+复制以下指令发给你的 AI 助手（支持 Workbuddy、DeepseekHarness、Cursor、GitHub Copilot、Claude Code 等任意主流 Agent）：
 ```text
 请帮我安装此项目：https://github.com/<owner>/<repo>
 读取其中的说明并协助我开始使用。
