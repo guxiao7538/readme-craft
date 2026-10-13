@@ -1,0 +1,9 @@
+# Local Agent Instructions (Never push to remote)
+AGENTS.md
+
+# OS & Editor temp files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
